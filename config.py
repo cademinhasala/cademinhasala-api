@@ -7,8 +7,6 @@ class Config(object):
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
-#export DATABASE_URL="postgresql://localhost/ccms"
 
 
 class ProductionConfig(Config):

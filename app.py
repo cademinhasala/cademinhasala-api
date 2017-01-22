@@ -1,15 +1,16 @@
 import os
 import json
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask import redirect, request, url_for, Response
+#from flask.ext.sqlalchemy import SQLAlchemy
+#from flask import redirect, request, url_for, Response
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL) 
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+print os.environ['APP_SETTINGS']
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+#db = SQLAlchemy(app)
 
 @app.route("/")
 def get_data():
