@@ -16,10 +16,12 @@ db = SQLAlchemy(app)
 
 @app.route("/")
 def get_data():
-#    with open(filename, "r") as f:
-#        data = json.loads(f.read())
-#    return Response(json.dumps(data), mimetype='application/json')
-    return "teste"
+
+    with open("turmas.json") as json_file:
+        json_data = json.load(json_file)
+
+    return Response(json.dumps(json_data), mimetype='application/json')
+    #return "teste"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
