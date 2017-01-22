@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask import redirect, request, url_for, Response
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL) 
+from snippet import crossdomain
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
@@ -14,7 +15,8 @@ db = SQLAlchemy(app)
 
 #from models import Turma
 
-@app.route("/")
+@app.route("/", methods=['GET', 'OPTIONS'])
+@crossdomain(origin='*')
 def get_data():
 
     with open("turmas.json") as json_file:
