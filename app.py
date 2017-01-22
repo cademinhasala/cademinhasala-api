@@ -12,13 +12,12 @@ print os.environ['APP_SETTINGS']
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-from models import Turma
+#from models import Turma
 
 @app.route("/")
 def get_data():
-#    return app.response_class(content_type='db.json')
-#   with open(filename, "r") as f:
-#       data = json.loads(f.read())
+#    with open(filename, "r") as f:
+#        data = json.loads(f.read())
 #    return Response(json.dumps(data), mimetype='application/json')
     return "teste"
 
