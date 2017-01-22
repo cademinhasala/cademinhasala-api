@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask import redirect, request, url_for, Response
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE,SIG_DFL) 
-from snippet import crossdomain
+from snippets import crossdomain
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
