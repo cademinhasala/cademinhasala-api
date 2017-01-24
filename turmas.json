@@ -56,41 +56,47 @@
       "compartilhada": "",
       "sala": "06 PA1"
     },
-    { 
+   {
       "id": 5,
-      "Sem": "9º",
-      "Disciplinas": "Last Hitting - PA",
-      "Professor": "VIVIANA OLIVEIRA MATEUS",
-      "Curso": "LOL",
-      "Código": "MR06",
-      "Dia": "4QUI",
-      "Horário Inicial": "7:15",
-      "Horário Final": "8:30",
-      "Sala": "06 PA1"
+      "semestre": "8º",
+      "disciplina": "Química dois",
+      "professor": "DALILA",
+      "curso": "Administração",
+      "codTurma": "MR02",
+      "dia":"4QUI",
+      "horaInicio":"7:10",
+      "horaFim":"8:20",
+      "lab": "",
+      "compartilhada": "",
+      "sala": "06 PA1"
     },
-    {
+   {
       "id": 6,
-      "Sem": "1º",
-      "Disciplinas": "Leitura da mente",
-      "Professor": "XAVIER",
-      "Curso": "COMO SER UM MUTANTE",
-      "Código": "MR03",
-      "Dia": "4QUI",
-      "Horário Inicial": "8:42",
-      "Horário Final": "9:53",
-      "Sala": "06 PA1"
+      "semestre": "8º",
+      "disciplina": "Química dois",
+      "professor": "DALILA",
+      "curso": "Administração",
+      "codTurma": "MR02",
+      "dia":"4QUI",
+      "horaInicio":"7:10",
+      "horaFim":"8:20",
+      "lab": "",
+      "compartilhada": "",
+      "sala": "06 PA1"
     },
-    {
+   {
       "id": 7,
-      "Sem": "1º",
-      "Disciplinas": "HUE",
-      "Professor": "CHATUBA DE MESQUITA",
-      "Curso": "DESVENTURAS EM SERIE",
-      "Código": "MR05",
-      "Dia": "4QUI",
-      "Horário Inicial": "10:01",
-      "Horário Final": "11:22",
-      "Sala": "06 PA1"
-    }
+      "semestre": "8º",
+      "disciplina": "Química dois",
+      "professor": "DALILA",
+      "curso": "Administração",
+      "codTurma": "MR02",
+      "dia":"4QUI",
+      "horaInicio":"7:10",
+      "horaFim":"8:20",
+      "lab": "",
+      "compartilhada": "",
+      "sala": "06 PA1"
+    },
   ]
 }
