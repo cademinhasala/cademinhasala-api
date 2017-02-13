@@ -1,4 +1,5 @@
-  {
+  [
+    {
     "lab": "",
     "curso": "Engenharia de Computa\u00e7\u00e3o",
     "fake": "",
@@ -1778,20 +1779,6 @@
   },
   {
     "lab": "",
-    "curso": "",
-    "fake": "",
-    "sala": "",
-    "prof": "",
-    "dis": "",
-    "hFim": "Hor\u00e1rio Final",
-    "hInicio": "Hor\u00e1rio Inicial",
-    "dia": "",
-    "codTurma": "C\u00f3digo",
-    "comp": "",
-    "sem": ""
-  },
-  {
-    "lab": "",
     "curso": "Engenharia de Computa\u00e7\u00e3o",
     "fake": "",
     "sala": "201 ANEXO A PA6",
@@ -1817,20 +1804,6 @@
     "codTurma": "NX01",
     "comp": "Eng. Comp + Eng. Prod",
     "sem": "7\u00ba"
-  },
-  {
-    "lab": "",
-    "curso": "",
-    "fake": "",
-    "sala": "",
-    "prof": "",
-    "dis": "",
-    "hFim": "Hor\u00e1rio Final",
-    "hInicio": "Hor\u00e1rio Inicial",
-    "dia": "",
-    "codTurma": "C\u00f3digo",
-    "comp": "",
-    "sem": ""
   },
   {
     "lab": "",
