@@ -1876,3 +1876,96 @@
     "dis": "Elementos de Automa\u00e7\u00e3o e Rob\u00f3tica"
   }
 ]
+=======
+{
+  "turmas": [
+    {
+      "id": 1,
+      "semestre": "1º",
+      "disciplina": "Química Geral - PA",
+      "professor": "VIVIANA OLIVEIRA MATEUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "MR01",
+      "dia":"4QUI, 7:15 - 8:30",
+      "compartilhada": "",
+      "sala": "06 PA1"
+    },
+    {
+      "id": 2,
+      "semestre": "2º",
+      "disciplina": "Cálculo III",
+      "professor": "ADELMO RIBEIRO DE JESUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"2TER, 19:00 - 20:15",
+      "compartilhada": "",
+      "sala": "12 ANEXO B PA7"
+    },
+    {
+      "id": 3,
+      "semestre": "3º",
+      "disciplina": "Física - Eletricidade - PA",
+      "professor": "HUGO MENEZES DO NASCIMENTO VASCONCELOS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"6SAB, 7:15, 8:30",
+      "compartilhada": "Eng.Comp + Mecatrônica",
+      "sala": "13 ANEXO B PA7"
+    },
+   {
+      "id": 4,
+      "semestre": "1º",
+      "disciplina": "Química Geral - PB",
+      "professor": "VIVIANA OLIVEIRA MATEUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"4QUI, 17:15 - 21:30",
+      "compartilhada": "",
+      "sala": "07 PA1"
+    },
+    {
+      "id": 5,
+      "semestre": "3º",
+      "disciplina": "Cálculo II",
+      "professor": "ADELMO RIBEIRO DE JESUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"2TER, 19:00 - 20:15",
+      "compartilhada": "",
+      "sala": "12 ANEXO B PA7"
+    },
+    {
+      "id": 6,
+      "semestre": "3º",
+      "disciplina": "Física - Eletricidade - PB",
+      "professor": "HUGO MENEZES DO NASCIMENTO VASCONCELOS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"6SAB, 7:15, 8:30",
+      "compartilhada": "Eng.Comp + Mecatrônica",
+      "sala": "13 ANEXO B PA7"
+    },
+   {
+      "id": 7,
+      "semestre": "1º",
+      "disciplina": "Introdução a Engenharia",
+      "professor": "VIVIANA OLIVEIRA MATEUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"4QUI, 17:15 - 21:30",
+      "compartilhada": "",
+      "sala": "07 PA1"
+    },
+    {
+      "id": 8,
+      "semestre": "3º",
+      "disciplina": "Sinais e Sistemas",
+      "professor": "ADELMO RIBEIRO DE JESUS",
+      "curso": "Engenharia da Computação",
+      "codTurma": "NR01",
+      "dia":"2TER, 19:00 - 20:15",
+      "compartilhada": "",
+      "sala": "12 ANEXO B PA7"
+    }
+  ]
+}
