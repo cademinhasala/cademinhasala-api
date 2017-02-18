@@ -4,7 +4,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask import redirect, request, url_for, Response
 from signal import signal, SIGPIPE, SIG_DFL
-signal(SIGPIPE,SIG_DFL) 
+signal(SIGPIPE,SIG_DFL)
 from snippets import crossdomain
 
 app = Flask(__name__)
@@ -23,7 +23,6 @@ def get_data():
         json_data = json.load(json_file)
 
     return Response(json.dumps(json_data), mimetype='application/json')
-    #return "teste"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
