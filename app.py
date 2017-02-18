@@ -13,16 +13,14 @@ print os.environ['APP_SETTINGS']
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-#from models import Turma
+with open("turmas.json") as json_file:
+    json_data = json.load(json_file)
+    jsons = json.dumps(json_data)
 
 @app.route("/", methods=['GET', 'OPTIONS'])
 @crossdomain(origin='*')
 def get_data():
-
-    with open("turmas.json") as json_file:
-        json_data = json.load(json_file)
-
-    return Response(json.dumps(json_data), mimetype='application/json')
+    return Response(jsons, mimetype='application/json')
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
